@@ -1,0 +1,6 @@
+**/*.mdx
+**/generated/
+src/samples/
+**/snippet.*
+/dist
+/nodes_modules
