@@ -4,11 +4,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 4173",
+    "preview": "vite preview --port 4173"
   },
   "dependencies": {
-    "vue": "^3.2.37",
-    "vue-router": "^4.0.16"
+    "@iconify/vue": "^4.1.1",
+    "@tailus/themer": "^0.0.4",
+    "@tailus/themer-accordion": "^0.0.6",
+    "radix-vue": "^1.2.5",
+    "vue": "^3.3.12",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
@@ -17,9 +21,9 @@
     "autoprefixer": "^10.4.7",
     "eslint-plugin-vue": "^9.0.0",
     "postcss": "^8.4.14",
-    "prettier": "^2.7.1",
+    "prettier": "^3.1.1",
     "prettier-plugin-tailwindcss": "^0.1.12",
-    "tailwindcss": "^3.1.5",
-    "vite": "^2.9.12"
+    "tailwindcss": "^3.3.7",
+    "vite": "^5.0.10"
   }
 }
